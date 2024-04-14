@@ -1,0 +1,18 @@
+1. Metoda Debugowania: Debugowanie Krokowe.
+
+2. Reprodukcja błędu: jeżeli użytkownik poda nie istniejącą opcję wyboru gry to 
+użytkownik powinien dostać komunikat o błędzie oraz powinien mieć możliwość ponownego wyboru gry.  
+
+3. Wyizolowanie źródła błędu: przez błąd w kodzie w pliku project.py dostajemy błąd.
+
+4. Identyfikacja awarii: 155 linijka kodu źródłowego - błądne zastosowanie elif (reguła w pythonie: if, elif, else | inne jezyki programowania: if, else if, else).
+
+5. Usunięcie defektu: w 155 linijce poprawienie słowa kluczowego elif na else, ponieważ jest to 3 blok warunkowy, 
+którego celem jest zwrocenie wartości jeśli powyższe warunki się nie spełnią.
+
+6. Weryfikacja powodzenia naprawy: program działą jak powinien! 
+
+Dokumentacja po dokonaniu zmian w programie: 
+ver.0.6 - 08.04.2024
+Naprawa błędu - po wybraniu nieprawidłowej gry w zakresie ich wyboru na początku działania programu, 
+naprawiono funkcję, której celem jest zwrócenie komunikatu w przypadku, gdy użytkownik poda nie istniejącą gre.
